@@ -1,0 +1,8 @@
+### requirements.txt :keeps a list of dependencies  to be installed using pip
+
+1. pip install -r requirements.txt for install
+
+migrate: which is responsible for applying migrations,
+         as well as unapplying and listing their status.
+makemigrations: which is responsible for creating new migrations based on 
+                the changes you have made to your models.
